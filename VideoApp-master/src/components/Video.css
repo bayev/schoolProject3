@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Raleway';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway' !important;
+}
+
+.OT_subscriber {
+    width: 100vw !important;
+    height: 100vh !important;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.OTPublisherContainer {
+    width: 100px !important;
+    height: 150px !important;
+    overflow: hidden;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+/*     border: 1px solid red; */
+    z-index:2;
+}
+
+.OT_bar {
+    background-color: transparent !important;
+}
+
+.OT_widget-container {
+    width: 50%;
+}
